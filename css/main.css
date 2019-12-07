@@ -17,9 +17,33 @@ button {
 	background-color: #a9a9a9;
 	color: #ffffff;
 	border: 1px solid #a9a9a9;
+	border-radius: 5px;
+	width: 50px;
+	font-size: 18px;
 }
 
 button:hover {
 	background-color: #ffffff;
 	color: #a9a9a9;
+}
+
+input {
+	background-color: #ffffff;
+	color: black;
+	border: 3px solid #a9a9a9;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	font-size: 18px;
+	width: 100px;
+}
+
+div.controls {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+
+button, input {
+	height: 100%;
 }
