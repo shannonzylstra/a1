@@ -4,6 +4,11 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 }
-#display {
+
+#displayNumber {
 	font-size: 72px;
+}
+
+#displayNumber[negative='true'] {
+	color: red;
 }
