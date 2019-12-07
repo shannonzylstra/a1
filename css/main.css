@@ -12,3 +12,14 @@ body {
 #displayNumber[negative='true'] {
 	color: red;
 }
+
+button {
+	background-color: #a9a9a9;
+	color: #ffffff;
+	border: 1px solid #a9a9a9;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #a9a9a9;
+}
